@@ -45,7 +45,7 @@ export const cats = (req: Request, res: Response) => {
   });
 };
 
-export const fishes = (req: Request, res: Response) => {
+export const fishes = (req: Request, res: Response) => { 
 
   let list = Pet.getFromType('fish');
 
